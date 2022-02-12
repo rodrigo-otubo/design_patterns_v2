@@ -14,7 +14,7 @@ uns aos outros e permite que você varie sua interação de forma independente.
 
 ## Wikipedia
 
-Na engenharia de software, o padrão mediador define um objeto que encapsula como um conjunto de objetos iterados. Esse padrão é considerado um padrão
+Na engenharia de software, o padrão mediator define um objeto que encapsula como um conjunto de objetos iterados. Esse padrão é considerado um padrão
 comportamental devido à forma como pode alterar o comportamento de execução do programa. Na programação orientada a objetos, os programas geralmente consistem 
 em muitas classes. A lógica de negócios e a computação são distribuídas entre essas classes. No entanto, à medida que mais classes são adicionadas a um programa,
 especialmente durante a manutenção e/ou refatoração, o problema de comunicação entre essas classes pode se tornar mais complexo. Isso torna o programa mais
