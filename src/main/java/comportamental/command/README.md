@@ -12,7 +12,7 @@ métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma
 Encapsule uma solicitação como um objeto, permitindo que você parametrize clientes com diferentes solicitações, filas ou solicitações de log e suporte 
 a operações reversíveis.
 
-<img width="395" alt="Captura de Tela 2022-02-11 às 23 14 43" src="https://user-images.githubusercontent.com/24915267/153692557-f28bbc37-e798-4022-8420-fc9c4bf41aa4.png">
+<img width="651" alt="Captura de Tela 2022-02-11 às 23 14 43" src="https://user-images.githubusercontent.com/24915267/153692557-f28bbc37-e798-4022-8420-fc9c4bf41aa4.png">
 
 
 ## Wikipedia
