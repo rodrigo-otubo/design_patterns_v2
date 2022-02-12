@@ -12,7 +12,7 @@ Forneça uma maneira de acessar os elementos de um objeto agregado sequencialmen
 
 ## Wikipedia
 
-Na programação orientada a objetos, o padrão iterador é um padrão de design no qual um iterador é usado para percorrer um contêiner e acessar os elementos 
+Na programação orientada a objetos, o padrão iterator é um padrão de design no qual um iterador é usado para percorrer um contêiner e acessar os elementos 
 do contêiner.
 
 
