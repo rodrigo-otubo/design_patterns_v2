@@ -10,8 +10,6 @@ Fonte: Refactoring Guru
 Permite que o objeto passe por uma cadeia de handlers, ao receber a requisição cada handler decide se processa ou passa para outro handler da cadeia.
 Ajuda a construir uma cadeia de objetos. Uma solicitação entra de um lado e continua indo de um objeto para outro até encontrar um manipulador adequado.
 
-<img width="651" alt="Captura de Tela 2022-02-11 às 23 06 34" src="https://user-images.githubusercontent.com/24915267/153692208-26ab084b-74df-4bc7-b039-969b200e16f8.png">
-
 
 ## Wikipedia
 
