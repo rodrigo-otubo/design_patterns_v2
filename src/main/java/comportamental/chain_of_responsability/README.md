@@ -23,7 +23,7 @@ passado para o próximo objeto de processamento na cadeia.
 > não obrigatoriamente todos passando por todos os handlers.
 > * Utilize quando for necessário executar diversos handlers em uma ordem específica.
 
-![Captura de Tela 2022-01-18 às 23 10 07](https://user-images.githubusercontent.com/24915267/150050378-c06f1323-8eaf-48b4-a436-934cf16c8aa2.png)
+<img width="651" alt="Captura de Tela 2022-02-11 às 23 06 34" src="https://user-images.githubusercontent.com/24915267/153692208-26ab084b-74df-4bc7-b039-969b200e16f8.png">
 
 
 ## Prós
