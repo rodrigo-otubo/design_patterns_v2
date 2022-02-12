@@ -14,7 +14,7 @@ automaticamente.
 
 ## Wikipedia
 
-O padrão observador é um padrão de projeto de software no qual um objeto, chamado de assunto, mantém uma lista de seus dependentes, chamados observadores, e os
+O padrão observer é um padrão de projeto de software no qual um objeto, chamado de assunto, mantém uma lista de seus dependentes, chamados observadores, e os
 notifica automaticamente sobre qualquer mudança de estado, geralmente chamando um de seus métodos.
 
 
