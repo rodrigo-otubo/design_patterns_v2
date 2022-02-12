@@ -13,7 +13,7 @@ Ajuda a construir uma cadeia de objetos. Uma solicitação entra de um lado e co
 
 ## Wikipedia
 
-No projeto orientado a objetos, o padrão de cadeia de responsabilidade é um padrão de projeto que consiste em uma fonte de objetos de comando e uma série 
+No projeto orientado a objetos, o padrão chain of responsability é um padrão de projeto que consiste em uma fonte de objetos de comando e uma série 
 de objetos de processamento. Cada objeto de processamento contém uma lógica que define os tipos de objetos de comando que ele pode manipular; o restante é
 passado para o próximo objeto de processamento na cadeia.
 
