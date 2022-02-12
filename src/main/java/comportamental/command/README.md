@@ -15,7 +15,7 @@ a operações reversíveis.
 
 ## Wikipedia
 
-Na programação orientada a objetos, o padrão de comando é um padrão de design comportamental no qual um objeto é usado para encapsular todas as 
+Na programação orientada a objetos, o padrão de command é um padrão de design comportamental no qual um objeto é usado para encapsular todas as 
 informações necessárias para executar uma ação ou acionar um evento posteriormente.
 
 
