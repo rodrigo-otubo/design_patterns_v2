@@ -23,23 +23,38 @@ public class Tv implements Device {
 
     @Override
     public int getVolume() {
-        return this.volume;
+        return volume;
     }
 
     @Override
     public void setVolume(int volume) {
-        this.volume = volume;
+        if (volume > 100) {
+            this.volume = 100;
+        } else if (volume < 0) {
+            this.volume = 0;
+        } else {
+            this.volume = volume;
+        }
     }
 
     @Override
     public int getChannel() {
-        return this.channel;
+        return channel;
     }
-
 
     @Override
     public void setChannel(int channel) {
         this.channel = channel;
+    }
+
+    @Override
+    public void printStatus() {
+        System.out.println("------------------------------------");
+        System.out.println("| I'm TV set.");
+        System.out.println("| I'm " + (on ? "enabled" : "disabled"));
+        System.out.println("| Current volume is " + volume + "%");
+        System.out.println("| Current channel is " + channel);
+        System.out.println("------------------------------------\n");
     }
 
 }
