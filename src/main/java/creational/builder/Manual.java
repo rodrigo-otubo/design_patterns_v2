@@ -1,5 +1,8 @@
 package creational.builder;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class Manual {
 
     private final CarType carType;
@@ -9,15 +12,6 @@ public class Manual {
     private final TripComputer tripComputer;
     private final GPSNavigator gpsNavigator;
 
-    public Manual(CarType carType, int seats, Engine engine, Transmission transmission,
-                  TripComputer tripComputer, GPSNavigator gpsNavigator) {
-        this.carType = carType;
-        this.seats = seats;
-        this.engine = engine;
-        this.transmission = transmission;
-        this.tripComputer = tripComputer;
-        this.gpsNavigator = gpsNavigator;
-    }
 
     public String print() {
         String info = "";

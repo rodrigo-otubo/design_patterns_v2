@@ -1,12 +1,12 @@
 package creational.prototype;
 
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
 public class Rectangle extends Shape{
 
     public int width;
     public int height;
-
-    public Rectangle() {
-    }
 
     public Rectangle(Rectangle target) {
         super(target);

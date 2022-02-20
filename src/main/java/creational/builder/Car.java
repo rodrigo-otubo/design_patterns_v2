@@ -1,7 +1,10 @@
 package creational.builder;
 
+import lombok.Getter;
+
 public class Car {
 
+    @Getter
     private final CarType carType;
     private final int seats;
     private final Engine engine;
@@ -21,38 +24,6 @@ public class Car {
             this.tripComputer.setCar(this);
         }
         this.gpsNavigator = gpsNavigator;
-    }
-
-    public CarType getCarType() {
-        return carType;
-    }
-
-    public double getFuel() {
-        return fuel;
-    }
-
-    public void setFuel(double fuel) {
-        this.fuel = fuel;
-    }
-
-    public int getSeats() {
-        return seats;
-    }
-
-    public Engine getEngine() {
-        return engine;
-    }
-
-    public Transmission getTransmission() {
-        return transmission;
-    }
-
-    public TripComputer getTripComputer() {
-        return tripComputer;
-    }
-
-    public GPSNavigator getGpsNavigator() {
-        return gpsNavigator;
     }
 
 }

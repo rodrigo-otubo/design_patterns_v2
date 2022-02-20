@@ -1,13 +1,13 @@
 package creational.prototype;
 
-public class Demo2 {
+public class DemoPrototype2 {
 
     public static void main(String[] args) {
-        BundledShapeCache cache = new BundledShapeCache();
+        var cache = new BundledShapeCache();
 
-        Shape shape1 = cache.get("Big green circle");
-        Shape shape2 = cache.get("Medium blue rectangle");
-        Shape shape3 = cache.get("Medium blue rectangle");
+        var shape1 = cache.get("Big green circle");
+        var shape2 = cache.get("Medium blue rectangle");
+        var shape3 = cache.get("Medium blue rectangle");
 
         if (shape1 != shape2 && !shape1.equals(shape2)) {
             System.out.println("Big green circle != Medium blue rectangle (yay!)");

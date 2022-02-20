@@ -1,15 +1,16 @@
 package creational.prototype;
 
+import lombok.NoArgsConstructor;
+
 import java.util.Objects;
 
+@NoArgsConstructor
 public abstract class Shape {
 
     public int x;
     public int y;
     public String color;
 
-    public Shape() {
-    }
 
     public Shape(Shape target) {
         if (target != null) {
